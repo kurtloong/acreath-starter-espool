@@ -10,6 +10,14 @@ import java.io.IOException;
 public class RestClientTemplate extends RestClientAccessor implements DocumentOperations{
     long slowTime = 5000;
 
+    public RestClientTemplate() {
+    }
+
+    public RestClientTemplate(ElasticsearchClientFactory restClientFactory) {
+        setConnectionFactory(restClientFactory);
+    }
+
+
     @Override
     public <T> T execute(RestClientCallback<T> callback) {
         try {
