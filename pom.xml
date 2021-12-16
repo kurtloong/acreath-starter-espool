@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.kurtloong</groupId>
     <artifactId>acreath-starter-espool</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.8-RELEASE</version>
     <name>acreath-starter-espool</name>
     <description>acreath-starter-espool</description>
     <properties>
@@ -24,9 +24,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/kurtloong/acreath-starter-threadpool.git</connection>
-        <developerConnection>scm:git:ssh://github.com/kurtloong/acreath-starter-threadpool.git</developerConnection>
-        <url>https://github.com/kurtloong/acreath-starter-threadpool</url>
+        <connection>scm:git:git://github.com/kurtloong/acreath-starter-espool.git</connection>
+        <developerConnection>scm:git:ssh://github.com/kurtloong/acreath-starter-espool.git</developerConnection>
+        <url>https://github.com/kurtloong/acreath-starter-espool</url>
     </scm>
     <developers>
         <developer>
@@ -47,18 +47,14 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+
 
 
         <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>7.15.2</version>
+            <version>7.16.1</version>
         </dependency>
 
 
